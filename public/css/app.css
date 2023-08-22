@@ -1,0 +1,19 @@
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.items .item {
+  max-width: 300px;
+  padding: 50px;
+  border: 1px solid #000;
+}
+
+.orders {
+  display: flex;
+  flex-direction: column;
+}
+.orders .order {
+  padding: 20px;
+  border: 1px solid;
+}
